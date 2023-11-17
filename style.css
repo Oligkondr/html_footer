@@ -5,22 +5,75 @@
 
 footer {
     background: #031B34;
+    padding: 175px 0 30px;
 }
 
 .gradient-text {
-    display: flex;
-    align-items: center;
-    justify-items: center;
-    font-size: 62px;
-    font-weight: 800;
-    font-family: 'Manrope', sans-serif;
+    width: 980px;
+    margin: 0 auto;
+    text-align: center;
+    font: 800 62px 'Manrope', sans-serif;
     background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-
-    width: 980px;
 }
 
-p {
+.request-button {
+    margin-top: 30px;
+    text-align: center;
+    padding: 22px 24px;
+}
+
+.request-button button {
+    width: 218px;
+    height: 65px;
+    background-color: transparent;
+    border: 1px white solid;
     color: white;
+    font: 18px Gilroy-Medium, sans-serif;
+}
+
+.footer-menu {
+    margin-top: 150px;
+    display: flex;
+    color: white;
+    padding: 0 15%;
+}
+
+.footer-menu p {
+    font: 14px Gilroy-Bold, sans-serif;
+
+    font-weight: bold;
+}
+
+.footer-logo {
+    flex-basis: 40%;
+}
+
+.footer-logo-text {
+    width: 175px;
+    margin-top: 25px;
+    font: 12px Gilroy-Medium, sans-serif;
+}
+
+.footer-column {
+    flex-basis: 20%;
+}
+
+.footer-column ul {
+    list-style-type: none;
+    margin-top: 36px;
+}
+
+.footer-column li {
+    width: 125px;
+    margin-top: 26px;
+    font: 12px Gilroy-Medium, sans-serif;
+}
+
+.copyright-text {
+    color: white;
+    text-align: center;
+    margin-top: 80px;
+    font: 12px Gilroy-Medium, sans-serif;
 }
