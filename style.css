@@ -1,3 +1,23 @@
+@font-face {
+    font-family: 'Gilroy-Medium';
+    src: url('./fonts/gilroy-medium.eot'); /* IE 9 Compatibility Mode */
+    src: url('./fonts/gilroy-medium.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+    url('./fonts/gilroy-medium.woff2') format('woff2'), /* Super Modern Browsers */
+    url('./fonts/gilroy-medium.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+    url('./fonts/gilroy-medium.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('./fonts/gilroy-medium.svg#gilroy-medium') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: url('./fonts/gilroy-bold.eot'); /* IE 9 Compatibility Mode */
+    src: url('./fonts/gilroy-bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+    url('./fonts/gilroy-bold.woff2') format('woff2'), /* Super Modern Browsers */
+    url('./fonts/gilroy-bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+    url('./fonts/gilroy-bold.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('./fonts/gilroy-bold.svg#gilroy-bold') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -30,7 +50,7 @@ footer {
     background-color: transparent;
     border: 1px white solid;
     color: white;
-    font: 18px Gilroy-Medium, sans-serif;
+    font: 18px Gilroy-Medium;
 }
 
 .footer-menu {
@@ -41,9 +61,7 @@ footer {
 }
 
 .footer-menu p {
-    font: 14px Gilroy-Bold, sans-serif;
-
-    font-weight: bold;
+    font: 14px Gilroy-Bold;
 }
 
 .footer-logo {
@@ -53,7 +71,7 @@ footer {
 .footer-logo-text {
     width: 175px;
     margin-top: 25px;
-    font: 12px Gilroy-Medium, sans-serif;
+    font: 12px Gilroy-Medium;
 }
 
 .footer-column {
@@ -68,12 +86,12 @@ footer {
 .footer-column li {
     width: 125px;
     margin-top: 26px;
-    font: 12px Gilroy-Medium, sans-serif;
+    font: 12px Gilroy-Medium;
 }
 
 .copyright-text {
     color: white;
     text-align: center;
     margin-top: 80px;
-    font: 12px Gilroy-Medium, sans-serif;
+    font: 12px Gilroy-Medium;
 }
