@@ -29,8 +29,12 @@ footer {
 }
 
 .gradient-text {
+    display: flex;
+    justify-content: center;
+}
+
+.gradient-text div {
     width: 980px;
-    margin: 0 auto;
     text-align: center;
     font: 800 62px 'Manrope', sans-serif;
     background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
@@ -39,18 +43,22 @@ footer {
 }
 
 .request-button {
-    margin-top: 30px;
-    text-align: center;
-    padding: 22px 24px;
+    display: flex;
+    justify-content: center;
+    margin-top: 42px;
 }
 
-.request-button button {
+.request-button a {
+    color: white;
     width: 218px;
     height: 65px;
-    background-color: transparent;
     border: 1px white solid;
-    color: white;
     font: 18px Gilroy-Medium;
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
 }
 
 .footer-menu {
@@ -95,3 +103,5 @@ footer {
     margin-top: 80px;
     font: 12px Gilroy-Medium;
 }
+
+
